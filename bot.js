@@ -265,11 +265,11 @@ botMethods.djAdvanceEvent = function(data){
                         }
                         break;
  
-                    case "link":
+                    case "web":
                         if(typeof command[1] == "undefined"){
-                            API.sendChat("Our Web - http://redstoner.com/");
+                            API.sendChat("Our Web - http://spartancraft.co.uk");
                         }else if(command[1].indexOf("@") > -1){
-                            API.sendChat(command[1]+" Our Web - http://redstoner.com/");
+                            API.sendChat(command[1]+" Our Web - http://spartancraft.co.uk");
                         }else{
                             API.sendChat("Our Web - http://redstoner.com/");
                         }
